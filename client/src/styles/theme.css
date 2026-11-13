@@ -1,0 +1,45 @@
+/*
+ * PROJECT THEME — Minimalist Blog Design
+ * White/off-white backgrounds, dark text, blue accent (#3B82F6)
+ */
+:root {
+  /* Corner radius for the whole app. */
+  --radius: 0.75rem;
+
+  /* Page background and body text */
+  --background: 249 250 251;       /* #F9FAFB - off-white */
+  --foreground: 31 41 55;          /* #1F2937 - dark gray */
+
+  /* Cards, panels, modal bodies, form controls */
+  --card: 255 255 255;             /* #FFFFFF - white */
+  --card-foreground: 17 24 39;     /* #111827 - near-black */
+
+  /* De-emphasised surfaces and text: hover fills, captions, placeholders */
+  --muted: 243 244 246;            /* #F3F4F6 */
+  --muted-foreground: 107 114 128; /* #6B7280 */
+
+  /* Brand colour — primary buttons, active states, focus ring */
+  --primary: 59 130 246;           /* #3B82F6 - blue */
+  --primary-foreground: 255 255 255;
+
+  /* Neutral action — Cancel buttons, secondary chips */
+  --secondary: 243 244 246;        /* #F3F4F6 */
+  --secondary-foreground: 31 41 55;
+
+  /* Soft brand tint — icon chips, active nav item, highlighted row */
+  --accent: 239 246 255;           /* #EFF6FF - light blue tint */
+  --accent-foreground: 30 64 175;  /* #1E40AF - deep blue */
+
+  /* Destructive — delete buttons, form errors */
+  --destructive: 220 38 38;        /* #DC2626 */
+  --destructive-foreground: 255 255 255;
+
+  /* Status accents */
+  --success: 22 163 74;            /* #16A34A */
+  --warning: 217 119 6;            /* #D97706 */
+
+  /* Lines and focus */
+  --border: 229 231 235;           /* #E5E7EB */
+  --input: 209 213 219;            /* #D1D5DB */
+  --ring: 59 130 246;              /* #3B82F6 */
+}
